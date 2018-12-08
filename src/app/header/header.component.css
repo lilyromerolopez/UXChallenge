@@ -5,11 +5,20 @@
     border-right: 1px solid #dee2e6;
     flex: 1 1 auto;
     text-align: center;
+    background-color: #ffffff;
     flex-direction: row;
 }
 .navbar .selected{
     background-color: #F9414A;
     color: #ffffff;
+    top:-4px;
+    left:-4px;
+    box-shadow: 1px 6px 0px #999,
+                2px 5px 0px #999,
+                3px 4px 0px #999,
+                4px 3px 0px #999,
+                5px 2px 0px #999,
+                6px 1px 0px #999;
 }
 .navbar-collapse a{
     display: flex;
@@ -17,4 +26,9 @@
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    text-decoration: none;
+}
+.navbar-collapse a:hover{
+    color: #F9414A;
+    font-size: 14px;
 }
