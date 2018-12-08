@@ -1,0 +1,20 @@
+
+.navbar a{
+    padding: 1rem;
+    color: gray;
+    border-right: 1px solid #dee2e6;
+    flex: 1 1 auto;
+    text-align: center;
+    flex-direction: row;
+}
+.navbar .selected{
+    background-color: #F9414A;
+    color: #ffffff;
+}
+.navbar-collapse a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
