@@ -13,12 +13,9 @@
     color: #ffffff;
     top:-4px;
     left:-4px;
-    box-shadow: 6px 2px 0px #999,
-                5px 3px 0px #999,
-                4px 4px 0px #999,
-                3px 5px 0px #999,
-                2px 6px 0px #999,
-                1px 7px 0px #999;
+    box-shadow: 0px 6px 0px #999;
+                
+                
 }
 .navbar-collapse a{
     display: flex;
@@ -29,6 +26,9 @@
     text-decoration: none;
 }
 .navbar-collapse a:hover{
-    color: #F9414A;
-    font-size: 14px;
+    background-color: #F9414A;
+    color: #ffffff;
+    top:-4px;
+    left:-4px;
+    box-shadow: 0px 6px 0px #999;
 }
