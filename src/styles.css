@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.ux-menu a{
+    padding: 1rem;
+    color: gray;
+    border-right: 2px solid #dee2e6;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: #ffffff;
+    flex-direction: row;
+}
+.ux-menu .selected{
+    background-color: #F9414A;
+    border-right: 2px solid #F9414A;
+    color: #ffffff;
+    top:-4px;
+    left:-4px;
+}
+.ux-menu a:hover{
+    background-color: #F9414A;
+    border-right: 2px solid #F9414A;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #ffffff;
+    top:-4px;
+    left:-4px;
+}
