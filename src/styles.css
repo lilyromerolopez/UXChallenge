@@ -1,8 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    font-size: 12px !important;
+.container{
+    background-color: black;
 }
 .ux-input{
     border: none;
@@ -50,4 +48,7 @@ body {
     border: none;
     border-bottom: 3px solid #9B9B9B;
     color: gray
+  }
+  .b-custom{
+      background-color: #2DBBB9 !important;
   }

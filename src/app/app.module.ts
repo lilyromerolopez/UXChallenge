@@ -13,6 +13,7 @@ import { ClimeComponent } from './clime/clime.component';
 import { OrderComponent } from './order/order.component';
 import { SocialComponent } from './social/social.component';
 import { MenuComponent } from './menu/menu.component';
+import { BarchartComponent } from './barchart/barchart.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MenuComponent } from './menu/menu.component';
     ClimeComponent,
     OrderComponent,
     SocialComponent,
-    MenuComponent
+    MenuComponent,
+    BarchartComponent
   ],
   imports: [
     BrowserModule,
