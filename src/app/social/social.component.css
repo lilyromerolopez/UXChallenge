@@ -4,3 +4,18 @@ input{
     background-color: #f8f9fa;
     border-bottom: gray 2px;
 }
+.n-hover a:hover{
+    border: 1px gray;
+    background-color: gray !important;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    top:-4px;
+    left:-4px;
+}
+.n-hover{
+    border-left: 3px gray;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    top:-4px;
+    left:-4px;
+}

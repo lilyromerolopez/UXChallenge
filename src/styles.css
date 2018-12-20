@@ -42,3 +42,11 @@ body {
 .img-fluid{
     filter: grayscale(60%);
   }
+  .in-green {
+    border: none;
+    border-bottom: 3px solid #2DBBB9;
+  }
+  .in-grey{
+    border: none;
+    border-bottom: 3px solid #9B9B9B;
+  }

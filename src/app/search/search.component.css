@@ -11,10 +11,7 @@ input[type=date]:focus {
     background-color: #CDFAFC;
   }
 
-  .in-green {
-    border: none;
-    border-bottom: 3px solid #2DBBB9;
-  }
+
   input[type=date]::-webkit-inner-spin-button {
     -webkit-appearance: none;
   }
