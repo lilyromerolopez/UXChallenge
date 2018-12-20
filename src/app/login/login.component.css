@@ -1,0 +1,15 @@
+.ux-input{
+  border: none;
+  background-color: transparent;
+}
+.in-grey{
+  border: none;
+  border-bottom: 3px solid #9B9B9B;
+}
+.btn {
+  background-image: linear-gradient( to right, #9B9B9B, #9B9B9B);
+  border-radius: 50px;
+  box-shadow: 0 8px 6px -6px black;
+  margin-bottom: 20px;
+  color: white;
+} 

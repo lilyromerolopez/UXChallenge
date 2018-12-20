@@ -4,6 +4,10 @@ body {
     letter-spacing: 2px;
     font-size: 12px !important;
 }
+.ux-input{
+    border: none;
+    background-color: #f8f9fa;
+}
 .ux-menu a{
     padding: 1rem;
     color: gray;
@@ -35,3 +39,6 @@ body {
     align-content:center;
     text-align: center;
 }
+.img-fluid{
+    filter: grayscale(40%);
+  }
