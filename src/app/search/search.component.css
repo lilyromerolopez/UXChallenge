@@ -1,0 +1,36 @@
+.ux-form label{
+    color: #9B9B9B;
+}
+.ux-input{
+    border: none;
+    background-color: #f8f9fa;
+}
+
+input[type=date]:focus {
+    background-color: #CDFAFC;
+  }
+
+  .in-hover-green {
+    border: none;
+    border-bottom: 3px solid #2DBBB9;
+  }
+  input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(../../assets/icons/hotel-solid.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+.btn {
+  background-image: linear-gradient( to right, #CDFAFC, #2DBBB9);
+  border-radius: 50px;
+  box-shadow: 0 8px 6px -6px black;
+} 
+.img-fluid{
+  filter: grayscale(40%);
+}

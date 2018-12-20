@@ -2,13 +2,11 @@
 body {
     font-family: sans-serif;
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 12px !important;
 }
-
 .ux-menu a{
     padding: 1rem;
     color: gray;
-    border-right: 2px solid #dee2e6;
     flex: 1 1 auto;
     text-align: center;
     background-color: #ffffff;
@@ -29,4 +27,11 @@ body {
     color: #ffffff;
     top:-4px;
     left:-4px;
+}
+.calendar{
+    content: "/assets/icons/calendar.svg";
+}
+.c-center{
+    align-content:center;
+    text-align: center;
 }
