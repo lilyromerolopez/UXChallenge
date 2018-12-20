@@ -8,6 +8,10 @@ import { FooterComponent } from './footer/footer.component';
 import { VMenuComponent } from './v-menu/v-menu.component';
 import { SearchComponent } from './search/search.component';
 import { LoginComponent } from './login/login.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { ClimeComponent } from './clime/clime.component';
+import { OrderComponent } from './order/order.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { LoginComponent } from './login/login.component';
     FooterComponent,
     VMenuComponent,
     SearchComponent,
-    LoginComponent
+    LoginComponent,
+    CalendarComponent,
+    ClimeComponent,
+    OrderComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,28 @@
+.ux-input{
+    border: none;
+    background-color: transparent;
+  }
+  .in-white{
+    border: none;
+    border-bottom: 3px solid #fff;
+  }
+  .btn {
+    background-image: linear-gradient( to right, #9B9B9B, #9B9B9B);
+    border-radius: 50px;
+    box-shadow: 0 8px 6px -6px black;
+    margin-bottom: 20px;
+    color: white;
+  } 
+  .card{
+    background-color: #EFF1F5;
+  }
+  .ux-form ul li{
+    background-color: transparent;
+    list-style: none;
+    border: none;
+  }
+  .row{
+    
+     filter: grayscale(90%);
+    
+}
