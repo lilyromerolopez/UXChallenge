@@ -4,3 +4,15 @@
     color: black;
     align-self: center !important;
 }
+.t-1{
+    font-family: fantasy; font-size: 28px; 
+    font-style: normal; font-variant: normal; 
+    font-weight: 700; line-height: 26.4px;
+    align-content: center;
+}
+.text-center{
+    font-size-adjust: unset;
+}
+.t-custom{
+        font-family: fantasy; font-size: 12px;
+}
