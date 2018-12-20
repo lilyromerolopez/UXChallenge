@@ -12,6 +12,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { ClimeComponent } from './clime/clime.component';
 import { OrderComponent } from './order/order.component';
 import { SocialComponent } from './social/social.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SocialComponent } from './social/social.component';
     CalendarComponent,
     ClimeComponent,
     OrderComponent,
-    SocialComponent
+    SocialComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
